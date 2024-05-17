@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp">
+
+        <TextView
+            android:id="@+id/textview_patient_list"
+            android:layout_width="356dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/patient_list"
+            android:textColor="#1D7844"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.036" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/search_bar_patient"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/green_stroke"
+                android:hint=" Search Patient" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/patient_add_btn"
+                android:layout_width="130dp"
+                android:layout_height="53dp"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/green_stroke"
+                android:gravity="center"
+                android:text="+"
+                android:textColor="@color/green"
+                android:textSize="24sp"
+                android:textStyle="normal"
+                app:circularflow_radiusInDP="15dp"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleview_patient_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ggreen"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="95dp" />
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="90dp"
+        android:clickable="true"
+        android:src="@drawable/home_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

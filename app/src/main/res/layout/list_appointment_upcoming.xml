@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    app:cardBackgroundColor="#F2FAFFFA"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="404dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/idtext"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="10dp"
+            android:text="Patient ID:"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/NAMEtext"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/IDtext"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Patient Name :"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/AGEtext"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/NAMEtext"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Patient Age:"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/agetext"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/nametext"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_toEndOf="@+id/AGEtext"
+            android:text="TextView Age"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/purposeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/birthdaytext">
+
+            <TextView
+                android:id="@+id/PURPOSEtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Purpose:"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/purposetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:layout_toEndOf="@+id/PURPOSEtext"
+                android:text="TextView Purpose TextView Purpose TextView Purpose TextView Purpose"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/BIRTHDAYtext"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/AGEtext"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Birthday:"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/birthdaytext"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/agetext"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_toEndOf="@+id/BIRTHDAYtext"
+            android:text="TextView Birthday"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/calendar"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/purposeContainer"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/calendar"
+            app:tint="@color/green" />
+
+        <TextView
+            android:id="@+id/appointment_date"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/purposeContainer"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/calendar"
+            android:text="TextView Date"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/baseline_access_time_24"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/calendar"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/baseline_access_time_24"
+            app:tint="@color/green" />
+
+        <TextView
+            android:id="@+id/appointment_time"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/appointment_date"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/baseline_access_time_24"
+            android:text="TextView Time"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/reject_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appointment_time"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/green"
+            android:text="Reject" />
+
+        <Button
+            android:id="@+id/accept_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appointment_time"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/green"
+            android:text="Accept" />
+
+        <TextView
+            android:id="@+id/IDtext"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginEnd="25dp"
+            android:layout_toEndOf="@+id/idtext"
+            android:text="TextView ID"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/nametext"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/IDtext"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_toEndOf="@+id/NAMEtext"
+            android:text="TextView Name"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

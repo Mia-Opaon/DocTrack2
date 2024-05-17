@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextSpecialization" type="id" />
+    <item name="editTextCountry" type="id" />
+    <item name="editTextEmail" type="id" />
+    <item name="editTextPhone" type="id" />
+    <item name="editTextState" type="id" />
+    <item name="editTextCity" type="id" />
+    <item name="editTextName" type="id" />
+</resources>

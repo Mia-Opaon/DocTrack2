@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    tools:context=".activity.healthprof.fragments.records.ListHealthprofPatientsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/stroke"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/patientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Patient Name:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView_patientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/patientName"
+            android:layout_marginStart="105dp"
+            android:text="Patient Name"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/patientId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="35dp"
+            android:text="Patient ID:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView_patientId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="35dp"
+            android:text="Patient ID"
+            android:textColor="@color/black" />
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentStart="true"-->
+        <!--            android:layout_alignParentTop="true"-->
+        <!--            android:layout_marginStart="254dp"-->
+        <!--            android:layout_marginTop="10dp"-->
+        <!--            android:layout_marginBottom="10dp"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            android:paddingRight="5dp">-->
+
+        <!--            <androidx.appcompat.widget.AppCompatButton-->
+        <!--                android:id="@+id/viewPatientRecord"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:background="@drawable/btn_green"-->
+        <!--                android:text="View Record"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:textSize="10sp"-->
+        <!--                android:textStyle="normal" />-->
+
+        <!--        </LinearLayout>-->
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

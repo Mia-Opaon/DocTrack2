@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="address">
+        <item>Agus, Lapu-Lapu City</item>
+        <item>Babag, Lapu-Lapu City</item>
+        <item>Bankal, Lapu-Lapu City</item>
+        <item>Baring, Lapu-Lapu City</item>
+        <item>Basak, Lapu-Lapu City</item>
+        <item>Buaya, Lapu-Lapu City</item>
+        <item>Calawisan, Lapu-Lapu City</item>
+        <item>Canjulao, Lapu-Lapu City</item>
+        <item>Caubian, Lapu-Lapu City</item>
+        <item>Caw-oy, Lapu-Lapu City</item>
+        <item>Cawhagan, Lapu-Lapu City</item>
+        <item>Gun-ob, Lapu-Lapu City</item>
+        <item>Ibo, Lapu-Lapu City</item>
+        <item>Looc, Lapu-Lapu City</item>
+        <item>Mactan, Lapu-Lapu City</item>
+        <item>Maribago, Lapu-Lapu City</item>
+        <item>Marigondon, Lapu-Lapu City</item>
+        <item>Pajac, Lapu-Lapu City</item>
+        <item>Pajo, Lapu-Lapu City</item>
+        <item>Pangan-an, Lapu-Lapu City</item>
+        <item>Poblacion, Lapu-Lapu City</item>
+        <item>Punta Engaño, Lapu-Lapu City</item>
+        <item>Pusok, Lapu-Lapu City</item>
+        <item>Sabang, Lapu-Lapu City</item>
+        <item>San Vicente, Lapu-Lapu City</item>
+        <item>Santa Rosa, Lapu-Lapu City</item>
+        <item>Subabasbas, Lapu-Lapu City</item>
+        <item>Talima, Lapu-Lapu City</item>
+        <item>Tingo, Lapu-Lapu City</item>
+        <item>Tungasan, Lapu-Lapu City</item>
+        <item>Alang-alang, Mandaue</item>
+        <item>Bakilid, Mandaue</item>
+        <item>Banilad, Mandaue</item>
+        <item>Basak, Mandaue</item>
+        <item>Cabancalan, Mandaue</item>
+        <item>Cambaro, Mandaue</item>
+        <item>Canduman, Mandaue</item>
+        <item>Casili, Mandaue</item>
+        <item>Casuntingan, Mandaue</item>
+        <item>Centro (Poblacion), Mandaue</item>
+        <item>Cubacub, Mandaue</item>
+        <item>Guizo, Mandaue</item>
+        <item>Ibabao-Estancia, Mandaue</item>
+        <item>Jagobiao, Mandaue</item>
+        <item>Labogon, Mandaue</item>
+        <item>Looc, Mandaue</item>
+        <item>Maguikay, Mandaue</item>
+        <item>Mantuyong, Mandaue</item>
+        <item>Opao, Mandaue</item>
+        <item>Paknaan, Mandaue</item>
+        <item>Pansabungan, Mandaue</item>
+        <item>Subangdaku, Mandaue</item>
+        <item>Tabok, Mandaue</item>
+        <item>Tawason, Mandaue</item>
+        <item>Tingub, Mandaue</item>
+        <item>Tipolo, Mandaue</item>
+        <item>Umapad, Mandaue</item>
+    </string-array>
+</resources>

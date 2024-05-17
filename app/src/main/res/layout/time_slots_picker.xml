@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <ListView
+            android:id="@+id/breakdown"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="35dp"
+            tools:layout_editor_absoluteX="369dp"
+            tools:layout_editor_absoluteY="1dp">
+
+        </ListView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/timePickCancel"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="120dp"
+                android:layout_marginEnd="249dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="50dp"
+                android:backgroundTint="@color/green"
+                android:text="Close" />
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/ggreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Health Professional Profile"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextHWN"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Health Workers Name"/>
+
+        <TextView
+            android:id="@+id/errorTextHWN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Health Worker Name is Blank"
+            android:text="Health Worker Name is Blank"
+            android:textColor="#FF0000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextPosition"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Position"/>
+
+        <TextView
+            android:id="@+id/errorTextPosition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Position is Blank"
+            android:text="Position is Blank"
+            android:textColor="#FF0000" />
+
+        <EditText
+            android:id="@+id/editTextUserName"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="UserName"/>
+
+        <TextView
+            android:id="@+id/errorTextUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="UserName is Blank"
+            android:text="UserName is Blank"
+            android:textColor="#FF0000" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Email" />
+
+        <TextView
+            android:id="@+id/errorTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Incorrect Email"
+            android:text="Incorrect Email"
+            android:textColor="#FF0000" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+
+        <TextView
+            android:id="@+id/errorTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password is Blank"
+            android:text="Password is Blank"
+            android:textColor="#FF0000" />
+
+
+        <EditText
+            android:id="@+id/editTextGender"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Gender" />
+
+        <TextView
+            android:id="@+id/errorTextGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gender is Blank"
+            android:text="Gender is Blank"
+            android:textColor="#FF0000" />
+
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Submit" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="90dp"
+            android:clickable="true"
+            android:src="@drawable/home_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

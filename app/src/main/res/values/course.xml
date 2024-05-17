@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="course">
+        <item>Elementary</item>
+        <item>Junior High</item>
+        <item>Senior High</item>
+        <item>Bachelor of Elementary Education</item>
+        <item>Bachelor of Secondary Education</item>
+        <item>Bachelor of Special Needs Education</item>
+        <item>Bachelor of Physical Education</item>
+        <item>BS in Accountancy</item>
+        <item>BS in Business Administration</item>
+        <item>BS in Management Accounting</item>
+        <item>BS in Office Administration</item>
+        <item>BS in Real Estate Management</item>
+        <item>BS in Civil Engineering</item>
+        <item>BS in Computer Engineering</item>
+        <item>BS in Electrical Engineering</item>
+        <item>BS in Electronics Engineering</item>
+        <item>BS in Industrial Engineering</item>
+        <item>BS in Mechanical Engineering</item>
+        <item>BS in Criminology</item>
+        <item>BS in Custom Administration</item>
+        <item>BS in Computer Science</item>
+        <item>BS in Information Technology</item>
+        <item>BS in Marine Engineering</item>
+        <item>BS in Hospitality Management</item>
+        <item>BS in Nursing</item>
+        <item>BS in Social Work</item>
+    </string-array>
+</resources>

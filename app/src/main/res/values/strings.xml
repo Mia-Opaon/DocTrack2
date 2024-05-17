@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">DocTrack</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_register">Click To Register</string>
+    <string name="click_to_login">Click To Login</string>
+    <string name="doctrack2">DocTrack2</string>
+    <string name="logout">Logout</string>
+    <string name="patient_home">Patient Home</string>
+    <string name="welcome_to">Welcome to\nDoctrack!</string>
+
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="age">Age</string>
+    <string name="course">Course</string>
+    <string name="phone_no">Phone No</string>
+    <string name="address">Address</string>
+    <string name="full_name">Full Name</string>
+    <string name="kindly_provide_your_patient_personal_details">Kindly provide your patient personal details.</string>
+    <string name="id_number">ID Number</string>
+    <string name="patient_list">Patient List</string>
+    <string name="device">Device</string>
+    <string name="update_patient_info">Update Patient\'s Information</string>
+    <string name="update_record">Update Record</string>
+    <string name="view_patient_info">View Patient\'s Information</string>
+    <string name="view_patient_record">Patient Personal Information</string>
+    <string name="vital_signs">Vital Signs</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_report_type_prompt" />
+    <string name="search_appointment_hint">Search Appointment</string>
+    <string name="top_5_pending_appointments">Top 5 Pending Appointment(s)</string>
+    <string name="total_appointment_s">Total Appointment(s) :</string>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ggreen"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewReportTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report Title"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewReportDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report Details"
+        android:textSize="14sp"
+        android:layout_below="@id/textViewReportTitle"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonViewReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:layout_below="@id/textViewReportDetails"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

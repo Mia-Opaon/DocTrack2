@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/appointment_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/appointment_icon"
+        android:title="Appointment" />
+
+    <item
+        android:id="@+id/patient_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/patient_icon"
+        android:title="Patient" />
+     <item
+        android:id="@+id/report_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/record_icon"
+        android:title="Report" />
+
+    <!-- TODO:: THIS LOGOUT IS TEMPORARY FOR TESTING ONLY    -->
+<!--    <item-->
+<!--    android:id="@+id/temp_logout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:icon="@drawable/logout_icon"-->
+<!--        android:title="Logout" />-->
+</menu>
